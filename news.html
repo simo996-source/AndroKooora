@@ -31,9 +31,17 @@
         <div class="page-layout">
 
             <div class="content-col">
+                <div id="ad-banner-top" style="text-align:center; margin:16px 0;"></div>
+
                 <h2 class="section-title">أحدث الأخبار الرياضية</h2>
                 <div class="posts-grid" id="news-grid"></div>
                 <div class="empty-state" id="news-empty-state" style="display:none;">لا توجد نتائج مطابقة لبحثك.</div>
+
+                <div style="text-align:center; margin:20px 0;">
+                    <script async="async" data-cfasync="false" src="https://pl31322387.profitableratecpmnetwork.com/40e81536d9244756b9a25b4899b2f560/invoke.js"></script>
+                    <div id="container-40e81536d9244756b9a25b4899b2f560"></div>
+                </div>
+
                 <div style="text-align:center; margin-top:26px;">
                     <button type="button" id="load-more-btn" class="download-btn" style="padding:12px 32px; font-size:14px;">تحميل المزيد</button>
                 </div>
@@ -43,6 +51,10 @@
                 <div class="widget">
                     <div class="widget-title">التصنيفات</div>
                     <div class="chip-list" id="news-categories-list"></div>
+                </div>
+
+                <div class="widget">
+                    <div id="ad-sidebar-1" style="text-align:center;"></div>
                 </div>
 
                 <div class="widget">
@@ -60,5 +72,10 @@
 
     <script src="assets/articles.js"></script>
     <script src="assets/news.js"></script>
+    <script src="assets/ads.js"></script>
+    <script>
+        window.renderResponsiveBanner('ad-banner-top');
+        window.renderSidebarBanner('ad-sidebar-1');
+    </script>
 </body>
 </html>

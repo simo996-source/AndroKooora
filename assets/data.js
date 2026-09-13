@@ -9,7 +9,7 @@
 
 const POSTS = [
     {
-        id: "yacine-tv-2025",
+        id: "yacine-tv-2026",
         tag: "تطبيقات رياضية",
         platform: "android",
         title: "تحميل ياسين تيفي الرسمي – Yacine TV 2026",

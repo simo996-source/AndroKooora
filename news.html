@@ -9,6 +9,14 @@
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="shortcut icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="assets/style.css">
+    <style>
+        .ad-slot { display:flex; justify-content:center; align-items:center; overflow:hidden; margin:16px auto; }
+        .ad-slot-728x90 { width:728px; height:90px; max-width:100%; }
+        .ad-slot-320x50 { width:320px; height:50px; max-width:100%; }
+        .ad-slot-300x250 { width:300px; height:250px; max-width:100%; }
+        @media (max-width:767px) { .ad-slot-728x90 { display:none; } }
+        @media (min-width:768px) { .ad-slot-320x50 { display:none; } }
+    </style>
 </head>
 <body>
 
@@ -31,7 +39,30 @@
         <div class="page-layout">
 
             <div class="content-col">
-                <div id="ad-banner-top" style="text-align:center; margin:16px 0;"></div>
+                <div class="ad-slot ad-slot-728x90">
+                    <script>
+                        atOptions = {
+                            'key' : '7c60d2ac039b437954acdbef1c16da3f',
+                            'format' : 'iframe',
+                            'height' : 90,
+                            'width' : 728,
+                            'params' : {}
+                        };
+                    </script>
+                    <script src="https://www.highrevenueformat.com/7c60d2ac039b437954acdbef1c16da3f/invoke.js"></script>
+                </div>
+                <div class="ad-slot ad-slot-320x50">
+                    <script>
+                        atOptions = {
+                            'key' : '99c62e21ec2af735f02b158197639015',
+                            'format' : 'iframe',
+                            'height' : 50,
+                            'width' : 320,
+                            'params' : {}
+                        };
+                    </script>
+                    <script src="https://www.highrevenueformat.com/99c62e21ec2af735f02b158197639015/invoke.js"></script>
+                </div>
 
                 <h2 class="section-title">أحدث الأخبار الرياضية</h2>
                 <div class="posts-grid" id="news-grid"></div>
@@ -54,7 +85,18 @@
                 </div>
 
                 <div class="widget">
-                    <div id="ad-sidebar-1" style="text-align:center;"></div>
+                    <div class="ad-slot ad-slot-300x250">
+                        <script>
+                            atOptions = {
+                                'key' : 'a85a8e92e1b52b20cca70cf9ff2d794c',
+                                'format' : 'iframe',
+                                'height' : 250,
+                                'width' : 300,
+                                'params' : {}
+                            };
+                        </script>
+                        <script src="https://www.highrevenueformat.com/a85a8e92e1b52b20cca70cf9ff2d794c/invoke.js"></script>
+                    </div>
                 </div>
 
                 <div class="widget">
@@ -72,10 +114,10 @@
 
     <script src="assets/articles.js"></script>
     <script src="assets/news.js"></script>
-    <script src="assets/ads.js"></script>
-    <script>
-        window.renderResponsiveBanner('ad-banner-top');
-        window.renderSidebarBanner('ad-sidebar-1');
-    </script>
+    <!-- Popunder -->
+    <script src="https://pl31322388.profitableratecpmnetwork.com/c3/4b/49/c34b499a3bfc34a41623c84177b082d5.js"></script>
+
+    <!-- Social Bar -->
+    <script src="https://pl31322389.profitableratecpmnetwork.com/3d/d0/9d/3dd09d2a01d35ad1a9a5d8fbcd561f29.js"></script>
 </body>
 </html>

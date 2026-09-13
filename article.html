@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">أندرو كورة | AndroKooora</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <header class="scoreboard">
+        <div class="scoreboard-top">
+            <div class="brand"><a href="index.html"><img src="assets/logo.png" class="brand-logo" alt="أندرو كورة"><span class="brand-text">أندرو <span>كورة</span></span></a></div>
+            <div class="search-wrap">
+                <input id="search-input" type="text" placeholder="ابحث عن تطبيق مباريات...">
+            </div>
+        </div>
+        <nav class="scoreboard-nav">
+            <a href="index.html" id="nav-home">الرئيسية</a>
+            <a href="index.html?platform=android" id="nav-android">تطبيقات أندرويد</a>
+            <a href="index.html?platform=tv" id="nav-tv">تطبيقات TV</a>
+            <a href="news.html">أحدث الأخبار</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-layout">
+
+            <div class="content-col">
+                <div class="breadcrumb"><a href="index.html">الرئيسية</a> ← <span id="crumb-title"></span></div>
+                <article id="article-root"></article>
+            </div>
+
+            <aside class="sidebar-col">
+                <div class="widget">
+                    <div class="widget-title">الأكثر رواجاً</div>
+                    <ul class="mini-list" id="trending-list"></ul>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">أحدث المقالات</div>
+                    <ul class="mini-list" id="latest-list"></ul>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        © 2026 أندرو كورة — جميع الحقوق محفوظة
+    </footer>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>

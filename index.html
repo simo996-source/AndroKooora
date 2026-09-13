@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أندرو كورة | AndroKooora</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <header class="scoreboard">
+        <div class="scoreboard-top">
+            <div class="brand"><img src="assets/logo.png" class="brand-logo" alt="أندرو كورة"><span class="brand-text">أندرو <span>كورة</span></span></div>
+            <div class="search-wrap">
+                <input id="search-input" type="text" placeholder="ابحث عن تطبيق مباريات...">
+            </div>
+        </div>
+        <nav class="scoreboard-nav">
+            <a href="index.html" class="active" id="nav-home">الرئيسية</a>
+            <a href="index.html?platform=android" id="nav-android">تطبيقات أندرويد</a>
+            <a href="index.html?platform=tv" id="nav-tv">تطبيقات TV</a>
+            <a href="news.html">أحدث الأخبار</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-layout">
+
+            <div class="content-col">
+                <div id="hero-root"></div>
+
+                <h2 class="section-title" id="apps-section-title">أحدث تطبيقات البث</h2>
+                <div class="posts-grid" id="posts-grid"></div>
+                <div class="empty-state" id="empty-state" style="display:none;">لا توجد نتائج مطابقة لبحثك.</div>
+            </div>
+
+            <aside class="sidebar-col">
+                <div class="widget">
+                    <div class="widget-title">الأقسام</div>
+                    <div class="chip-list" id="categories-list"></div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">الأكثر رواجاً</div>
+                    <ul class="mini-list" id="trending-list"></ul>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">أحدث المقالات</div>
+                    <ul class="mini-list" id="latest-list"></ul>
+                </div>
+            </aside>
+
+        </div>
+
+        <section class="home-news-section">
+            <h2 class="section-title">أحدث الأخبار</h2>
+            <div class="posts-grid" id="home-news-grid"></div>
+            <div style="text-align:center; margin-top:26px;">
+                <a href="news.html" class="download-btn" style="padding:12px 32px; font-size:14px; display:inline-block;">قراءة المزيد من الأخبار</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        © 2026 أندرو كورة — جميع الحقوق محفوظة
+    </footer>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/articles.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>
